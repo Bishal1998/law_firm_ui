@@ -1,0 +1,175 @@
+.hero {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 97.37px;
+}
+
+.bottom {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 97.37px;
+}
+
+.lorem {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29.25px;
+    color: var(--gray);
+}
+
+.input {
+    width: 438px;
+    height: 74px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 43px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+
+.input input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 190px;
+    height: 26px;
+}
+
+.talk {
+    width: 137px;
+    height: 62px;
+    background-color: var(--yellow);
+    border-radius: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.img-container {
+    width: 467.71px;
+    height: 467.71px;
+    position: relative;
+    background-color: var(--yellow);
+    border-radius: 55px;
+}
+
+.img-container img {
+    position: absolute;
+    bottom: -1.5px;
+    width: 443.51px;
+    height: 509.07px;
+}
+
+@media all and (max-width: 1060px) {
+    .hero {
+        margin-top: 1rem;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .first-part {
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 588px) {
+    .top {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .bottom {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .lorem {
+        display: none;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .hero {
+        gap: 2rem;
+    }
+
+    .top {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bottom {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .input {
+        width: 80%;
+        height: 40px;
+        gap: 0.5rem;
+        padding: 0.2rem;
+    }
+
+    .input input {
+        width: 180px;
+        height: 22px;
+        padding-left: 1rem;
+    }
+
+    .talk {
+        width: 150px;
+        height: 35px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    .input-icon {
+        display: none;
+    }
+
+    .img-container {
+        width: 100%;
+        height: 509.07px;
+        overflow: hidden;
+    }
+
+    .img-container img {
+        bottom: -1.5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

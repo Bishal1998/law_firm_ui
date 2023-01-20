@@ -4,6 +4,8 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
+    /* position: sticky; */
 }
 
 .nav-link {
@@ -74,6 +76,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    z-index: 30;
 }
 
 .close {
