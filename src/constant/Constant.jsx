@@ -87,3 +87,48 @@ export const practices = [
         full: false,
     },
 ]
+
+export const clients = [
+    {
+        id: 1,
+        image: elder,
+        name: 'Jane Cooper',
+        tag: 'Ceo of Hunt',
+        subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
+    },
+    {
+        id: 2,
+        image: elder,
+        name: 'Devon Lane',
+        tag: 'Ceo of Hunt',
+        subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
+    },
+    {
+        id: 3,
+        image: elder,
+        name: 'Robert Fox',
+        tag: 'Ceo of Hunt',
+        subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
+    },
+    {
+        id: 4,
+        image: elder,
+        name: 'Bishal Paudel',
+        tag: 'Ceo of Hunt',
+        subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
+    },
+    {
+        id: 5,
+        image: elder,
+        name: 'Sachin Dhakal',
+        tag: 'Ceo of Hunt',
+        subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
+    },
+    {
+        id: 6,
+        image: elder,
+        name: 'Dhiraj Subdei',
+        tag: 'Ceo of Hunt',
+        subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
+    },
+]

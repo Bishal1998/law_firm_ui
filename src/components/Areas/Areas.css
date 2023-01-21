@@ -1,7 +1,6 @@
 .areas {
     padding-top: 2rem;
     width: 100%;
-    height: 100vh;
 }
 
 .areas-title {
@@ -12,10 +11,8 @@
 }
 
 .areas-img {
-    width: 100%;
-    height: 342px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
@@ -27,7 +24,7 @@
 
 .overlay {
     position: absolute;
-    width: 752px;
+    width: 852px;
     height: 342px;
     object-fit: cover;
     border-radius: 14px;
@@ -35,7 +32,7 @@
 }
 
 .collection img {
-    width: 752px;
+    width: 852px;
     height: 342px;
     object-fit: cover;
     border-radius: 14px;
@@ -59,7 +56,7 @@
 
 .overlay1 {
     position: absolute;
-    width: 358px;
+    width: 380px;
     height: 342px;
     object-fit: cover;
     border-radius: 14px;
@@ -67,7 +64,7 @@
 }
 
 .collection1 img {
-    width: 358px;
+    width: 380px;
     height: 342px;
     object-fit: cover;
     border-radius: 14px;
@@ -86,6 +83,11 @@
 }
 
 @media all and (max-width : 1060px) {
+    .areas-img {
+        justify-content: center;
+        align-items: center;
+    }
+
     .overlay {
         width: 100%;
     }
