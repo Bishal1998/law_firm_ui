@@ -4,6 +4,7 @@ import SecondPage from "./components/SecondPage/SecondPage"
 import Areas from "./components/Areas/Areas"
 import Clients from "./components/Clients/Clients"
 import Team from "./components/team/Team"
+import FAQ from "./components/faq/FAQ"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Areas />
       <Clients />
       <Team />
+      <FAQ />
     </div>
   )
 }

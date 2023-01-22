@@ -171,3 +171,26 @@ export const teams = [
         img: elder
     },
 ]
+
+export const faq = [
+    {
+        id: 1,
+        title: 'What is my worth?',
+        subtitle: 'lorem ipsum dolor sit amet, consectetur adip'
+    },
+    {
+        id: 2,
+        title: 'React projects GitHub',
+        subtitle: 'In this tutorial we are going to build and deploy a real time chat application. Covered topics: React.js, Node.js, Express.js, and Socket.io. react reactjs ...'
+    },
+    {
+        id: 3,
+        title: '25 React projects',
+        subtitle: '21 React Project Ideas for Beginners · 1. Messaging Application · 2. Productivity Applications · 3. Entertainment Applications · 4. Social Cards · 5. Calculator · 6.'
+    },
+    {
+        id: 4,
+        title: 'Can you learn React in 2 days?',
+        subtitle: 'For a programmer who is already familiar with HTML and at least one other programming language, learning React will take no more than a single day. '
+    },
+]
