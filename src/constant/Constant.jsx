@@ -132,3 +132,42 @@ export const clients = [
         subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
     },
 ]
+
+export const teams = [
+    {
+        id: 1,
+        name: 'Danial Def',
+        cases: 301,
+        img: elder
+    },
+    {
+        id: 2,
+        name: 'Sanfole',
+        cases: 850,
+        img: elder
+    },
+    {
+        id: 3,
+        name: 'Cesforilla',
+        cases: 470,
+        img: elder
+    },
+    {
+        id: 4,
+        name: 'Colleen',
+        cases: 180,
+        img: elder
+    },
+    {
+        id: 5,
+        name: 'Haldone',
+        cases: 212,
+        img: elder
+    },
+    {
+        id: 6,
+        name: 'Nik Jeo',
+        cases: 350,
+        img: elder
+    },
+]

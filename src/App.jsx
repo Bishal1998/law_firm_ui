@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero"
 import SecondPage from "./components/SecondPage/SecondPage"
 import Areas from "./components/Areas/Areas"
 import Clients from "./components/Clients/Clients"
+import Team from "./components/team/Team"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <SecondPage />
       <Areas />
       <Clients />
+      <Team />
     </div>
   )
 }
