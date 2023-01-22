@@ -98,35 +98,35 @@ export const clients = [
     },
     {
         id: 2,
-        image: elder,
+        image: sunshine,
         name: 'Devon Lane',
         tag: 'Ceo of Hunt',
         subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
     },
     {
         id: 3,
-        image: elder,
+        image: proposal,
         name: 'Robert Fox',
         tag: 'Ceo of Hunt',
         subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
     },
     {
         id: 4,
-        image: elder,
+        image: project,
         name: 'Bishal Paudel',
         tag: 'Ceo of Hunt',
         subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
     },
     {
         id: 5,
-        image: elder,
+        image: building,
         name: 'Sachin Dhakal',
         tag: 'Ceo of Hunt',
         subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
     },
     {
         id: 6,
-        image: elder,
+        image: mutual,
         name: 'Dhiraj Subdei',
         tag: 'Ceo of Hunt',
         subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequatduis enim velit mollit Exer.sitaliqua dolor do amet sint.Velit officia'
